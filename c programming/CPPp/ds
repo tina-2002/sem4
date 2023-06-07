@@ -1,0 +1,16 @@
+data structure : organisation od data so that it can be stored efficiently with min time and space.
+definiton of DS - A DS is a systematic way to organise data so that it can be used efficiently in terms of time as well as space.
+Array - 1d,2d,string , 
+String - it is an ordered collection(array) of characters. 
+drawback of array : right shift to add an element , left shift to delete an element :- time complexity 
+this is overcome by LINKED LIST. 
+String is an array of characters.
+string is terminated by null character "\0"
+/cprogramming/images/string_representation.jpg
+STRING INITIALISATION/DECLARATION:-
+char stringname[size];
+char str[10]="sachin";  --> last 4 spaces by default get null characters
+char str[]= "sachin";
+char str[10]= {'s','a','c','h','i','n','\0'}
+
+diff bw scanf and gets

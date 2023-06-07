@@ -1,0 +1,19 @@
+in bfs , queue is used.
+int visited[v]={0};
+Queue q;
+void bfs(int s){
+    
+    q.enqueue(s);
+    while(q is not empty){
+        int u=q.dequeue(s);
+        if(visited[u]==0){
+            visited[s]=1;
+            printf("%d\t ",u);
+        }
+        for(int d=0;d<v;d++){
+            if(adjmat[u][d]==1 && visited[d]==0){
+                q.enqueue(d);
+            }
+        }
+    }
+}

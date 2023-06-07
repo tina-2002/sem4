@@ -1,0 +1,11 @@
+oops concept:
+1 classes and objects
+2 Abstraction
+3 Encapsulation
+4 Inheritance
+5 Polymorphism
+
+constructor
+a constructor is a spcl type of member function whose name is exactly same as the name of the class.
+constructor doesnt have a return type . constructor should be having public access.
+it is automatically called when an object of that class is created.
